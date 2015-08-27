@@ -1,6 +1,6 @@
 def mean(vals):
 	total=sum(vals)
 	length=len(vals)
-	return total/length
+	return float(total)/float(length)
 
 # print mean([2,4])
